@@ -1,0 +1,148 @@
+const products = [
+  {
+    name: 'Microsoft Xbox One S 1TB',
+    image: '/images/xbox.jpg',
+    description:
+      'Whats in the box: Xbox Series S 512 GB console, 1 Xbox Wireless Controller, High Speed HDMI cable.',
+    brand: 'Microsoft',
+    category: 'Electronics',
+    price: 280,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 15,
+  },
+  {
+    name: '2021 Apple 10.2-inch iPad Wi-Fi',
+    image: '/images/ipad.jpg',
+    description:
+      'Gorgeous 10.2-inch Retina display with True Tone,A13 Bionic chip with Neural Engine,8MP Wide back camera, 12MP Ultra Wide front camera with Center Stage',
+    brand: 'Apple',
+    category: 'Electronics',
+    price: 399.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Acer Nitro XZ342CK 34"Curved',
+    image: '/images/monitor.jpg',
+    description:
+      '34" WQHD UltraWide (3440 x 1440) VA Display with AMD Radeon FreeSync Technology',
+    brand: 'Acer',
+    category: 'Electronics',
+    price: 499,
+    countInStock: 7,
+    rating: 4.5,
+    numReviews: 8,
+  },
+  {
+    name: 'HP Pavilion Gaming Desktop',
+    image: '/images/hp.jpg',
+    description:
+      'This potent PC keeps up with you and the games of tomorrow thanks to its powerful intervals, support for a second display, customizable LED lighting, seamless expansion, and easy upgrades',
+    brand: 'HP',
+    category: 'Electronics',
+    price: 628,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Redragon S101 Wired Gaming',
+    image: '/images/redragon.jpg',
+    description:
+      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+    brand: 'Redragon',
+    category: 'Electronics',
+    price: 35.98,
+    countInStock: 8,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Razer Iskur Gaming Chair',
+    image: '/images/razer.jpg',
+    description:
+      'Ergonomic Lumber Support System: Enjoy total lower back support with a built-in, fully adjustable lumbar curve that closely aligns to your spine',
+    brand: 'Razer',
+    category: 'Home',
+    price: 499.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Razer Basilisk V3 Customizable',
+    image: '/images/mouse.jpg',
+    description:
+      '11 Razer Chroma RGB Lighting Zones: Bask in the Razer Basilisk V3’s glory as you customize each zone from over 16.8 million colors and countless lighting effects',
+    brand: 'Razer',
+    category: 'Electronics',
+    price: 69.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Sony WH-1000XM4 Wireless',
+    image: '/images/sony.jpg',
+    description:
+      'Industry Leading noise cancellation-two processors control 8 microphones for unprecedented noise cancellation. ',
+    brand: 'Sony',
+    category: 'Electronics',
+    price: 348.50,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Razer Blade 14 Gaming Laptop',
+    image: '/images/razerlaptop.jpg',
+    description:
+      'Whether gaming or creating, AMD Ryzen processors offer ultimate performance: AMD Ryzen 5000 Series processors power the next generation of demanding games',
+    brand: 'Razer',
+    category: 'Electronics',
+    price: 2349.99,
+    countInStock: 9,
+    rating: 5,
+    numReviews: 20,
+  },
+  {
+    name: 'Razer BlackWidow V3 Mini',
+    image: '/images/razerkeyboard.jpg',
+    description:
+      'The #1 Best-Selling Gaming Peripherals Manufacturer in the US: Source - The NPD Group, Inc. U.S. Retail Tracking Service',
+    brand: 'Razer',
+    category: 'Electronics',
+    price: 158.75,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    name: 'Nintendo Switch with Neon Blue',
+    image: '/images/switch.jpg',
+    description:
+      '3 Play Styles: TV Mode, Tabletop Mode, Handheld Mode,6.2-inch, multi-touch capacitive touch screen,4.5-9 plus Hours of Battery Life will vary depending on software usage conditions',
+    brand: 'Nintendo',
+    category: 'Video Games',
+    price: 299.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Red Dead Redemption 2: 55 Gold',
+    image: '/images/red.jpg',
+    description:
+      'This Gold Rush package contains 55 Gold bars to commemorate the last year of the California Gold Rush. This discount saves you more per bar than the 25 Gold Bar package and puts you well on the way to a life of wealth and prosperity in Red Dead Online.',
+    brand: 'Rockstar Games',
+    category: 'Video Games',
+    price: 19.99,
+    countInStock: 0,
+    rating: 4.5,
+    numReviews: 16,
+  },
+]
+
+export default products;
