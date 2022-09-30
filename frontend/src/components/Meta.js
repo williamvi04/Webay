@@ -12,7 +12,7 @@ const Meta = (props) => {
 Meta.defaultProps = {
     title: 'Webay',
     description: 'Webay - electronics e-commerce website',
-    keywords: 'electronics, gadgets, buy electronics, mobile, smartphone, accessories'  
+    keywords: 'electronics, gadgets, mobile, accessories'  
 };
 
 export default Meta;

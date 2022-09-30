@@ -60,7 +60,7 @@ const ProfileScreen = (props) => {
 
 
     return <Row>
-        <Meta title='ProShop | My Profile' />
+        <Meta title='Webay | My Profile' />
         {/* Update form */}
         <Col md={3}>
         <h2>User Details</h2>

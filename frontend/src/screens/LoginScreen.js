@@ -37,7 +37,7 @@ const LoginScreen = (props) => {
 
 
     return <FormContainer>
-        <Meta title='ProShop | Sign In' />
+        <Meta title='Webay | Sign In' />
         <h1>Sign In</h1>
         {/* {console.log(error)} */}
         {error && <Message message={error} />}

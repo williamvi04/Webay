@@ -45,7 +45,7 @@ const RegisterScreen = (props) => {
 
 
     return <FormContainer>
-        <Meta title='ProShop | Register' />
+        <Meta title='Webay| Register' />
         <h1>Register</h1>
         {message && <Message message={message} />}
         {error && <Message message={error} />}

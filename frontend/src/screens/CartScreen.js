@@ -30,7 +30,7 @@ const CartScreen = (props) => {
     }
     return (
         <Row>
-            <Meta title='ProShop | Cart' />
+            <Meta title='Webay | Cart' />
             <Col md={8}>
                 <h1>Shopping Cart</h1>
                 {cartItems.length === 0 ? (
